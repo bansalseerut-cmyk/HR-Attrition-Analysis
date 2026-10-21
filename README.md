@@ -3,18 +3,15 @@ When and how fast do employees leave? A Python, MySQL, and Power BI analysis wit
 HR Workforce & Attrition Analysis
 An end-to-end people-analytics project: data audit and cleaning in Python, analysis in SQL (MySQL) and Python, and a two-page Power BI dashboard on employee hiring, exits, and retention.
 
-Author: [YOUR NAME] | LinkedIn: [LINK] | Dashboard file: dashboard/HR dashboard.pbix
+ Dashboard file: dashboard/HR dashboard.pbix
 
 Summary
 In this dataset, hiring stayed flat at about 600 people a year while exits grew roughly 7x, so attrition more than doubled and headcount growth slowed every year. About a quarter of hires leave within a year. The data also has several contradictions (for example, "Active" employees with exit dates), which I documented and handled explicitly instead of trusting the status column.
 
 Question this project answers: who leaves, when, and how fast?
-
 Screenshots
 Page 1: Overview	Page 2: Attrition Deep Dive
 Overview	Deep dive
-(Replace with your exported screenshots.)
-
 Key findings
 All figures are from this synthetic dataset. Full years 2019 to 2022 are used for trends.
 
@@ -41,9 +38,6 @@ Focus on first-year retention. About a quarter of hires are gone within a year, 
 Treat retention as seriously as hiring. Constant hiring of about 600 a year no longer offsets rising exits.
 Fix HR data capture. Employment status, exit dates, and termination types should agree, and retirement should be coded reliably (see the data quality audit).
 These follow from what happened in the data. The data does not show why people left, so I make no causal claims.
-
-Data
-Source: Employee/HR Dataset (All In One) on Kaggle, by ravindrasinghrana. The data is synthetic, so results describe patterns in this dataset, not real-world facts.
 
 Table	Shape	Used?
 employee_data	3,000 × 26	Yes (main analysis)
